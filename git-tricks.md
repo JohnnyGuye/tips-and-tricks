@@ -7,3 +7,5 @@ ed+=$4; deleted+=$6; delta+=$4-$6; ratio=deleted/inserted} END {printf "Commit s
 s changed (total)..  %s\n- Lines added (total)....  %s\n- Lines deleted (total)..  %s\n- Tota\|
 l lines (delta)....  %s\n- Add./Del. ratio (1:n)..  1 : %s\n", files, inserted, deleted, delt\|
 a, ratio }'
+
+https://education.github.com/git-cheat-sheet-education.pdf
