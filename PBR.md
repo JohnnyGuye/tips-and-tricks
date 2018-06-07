@@ -16,3 +16,8 @@ Tells how shaded by microfacets the surface is. Tends to smoothen the edges of c
 
 ### Fresnel F
 Create the halo when you are the incidence angle is near 0 (all light reflected)
+
+## Lights
+Pointlights are the more common lights in real life. And they are easy to render because you just need the angle to the surface you consider and the distance to it to lit up the face. They have an attenuation of the inverse squared distance. (inverse distance with gamma correction)
+Spotlights are quite the same but they have a cut off to remove some directions.
+A directional light is no more than a pointlight at infinite distance and without attenuation. Well physically it's the case since the sun is our directional light and is emitting from miles and miles away.
